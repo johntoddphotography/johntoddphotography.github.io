@@ -1,0 +1,53 @@
+
+
+.button.b-close {
+	border-radius:7px 7px 7px 7px;
+	box-shadow:none;
+	font:bold 110% sans-serif;
+	padding:0 6px 2px;
+	position:absolute;
+	max-width:30px;
+	right:-7px;
+	top:-7px
+}
+
+#popup,#popup1,#popup2,#popup3,#popup4,#popup5,#popup6,.bMulti {
+	position:absolute;
+	left:-50px;
+	background-color:#222;
+	border-radius:10px 10px 10px 10px;
+	box-shadow:0 0 25px 5px #999;
+	color:#fff;
+	display:none;
+	max-width:90%;
+	padding:10px;
+}
+#popup .logo {
+	color:#2b91af;
+	font:bold 325% 'Petrona',sans
+}
+#popup,.bMulti {
+	min-height:80px
+}
+#popup2 iframe {
+	background:url('loader.gif') center center no-repeat;
+	min-height:240px;
+	min-width:450px
+}
+.loading {
+	background:url('loader.gif') center center no-repeat
+}
+.bMulti p {
+	font:500% 'Petrona',sans-serif;
+	padding:45px 0 0;
+	text-align:center
+}
+.bMulti a {
+	left:175px;
+	position:absolute;
+	top:175px
+}
+.lt-ie9 .bModal {
+	background-color:#000
+}
+

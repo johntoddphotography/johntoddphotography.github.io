@@ -1,0 +1,106 @@
+
+.wrapper {
+	width:100%;	
+}
+
+.portfolioContainer a{
+	border:0;
+}
+
+.portfolioContainer{
+	
+}
+
+.portfolioFilter a { 
+    margin-right: 10px; 
+    color:#666;
+    text-decoration:none;
+}
+ 
+.portfolioFilter button.current {
+	background-color:#8cd311; 
+}
+ 
+ img {
+	 vertical-align: bottom;
+	 margin-bottom: 8px;
+}
+ 
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+ 
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.butt {
+	padding:10px;
+	margin-left:10px;
+}
+
+.overlay {
+    width: 100%;
+	height: calc(100% - 8px);
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    text-decoration: none;
+    color: #fff;
+    opacity:0;
+	-webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    -transition: .4s;
+}
+
+.overlay .title {
+    text-align: center;
+	padding: 0px;
+    font-size: 15px;
+}
+
+.overlay .description {
+    position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-left:0;
+	font-size: 14px;
+	line-height: 18px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.overlay .description p {
+  padding-left:10px; 
+}
+
+ .overlay:hover {
+    opacity:1;
+}
+
+#iconI{
+	font-size:10px;
+	opacity:.5;
+	position:absolute;
+	top:4px;
+	left:7px;
+	background-color:#6ea60c;	
+	}

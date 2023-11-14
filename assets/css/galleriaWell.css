@@ -1,0 +1,36 @@
+/*
+ * Galleria Twelve Theme 2011-03-21
+ * Copyright (c) 2011, Aino
+ */
+
+@media screen and (max-width: 1680px) {
+	#galleria {
+			max-width:60% !important;			
+			}
+	}
+	
+@media screen and (max-width: 1280px) {
+	#galleria {
+			max-width:55% !important;
+			}
+	}
+
+@media screen and (max-width: 840px) {
+	#galleria {
+			max-width:65% !important;
+			}
+	}
+
+@media screen and (max-width: 736px) {
+	#galleria {
+			max-width:50% !important;
+			margin-left: 24vw ;
+			}
+	}
+
+@media screen and (max-width: 580px) {
+	#galleria {
+			max-width:60% !important;
+			margin-left: 17vw;
+			}
+	}
