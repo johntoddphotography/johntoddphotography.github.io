@@ -1,27 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
- <head>
-   <title>YOUR NAME Portfolio</title>
- </head>
- <body>
-   <nav>
-     <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
-       <li><a href=”/resume”>Resume</a></li>
-       <li><a href=”/blog”>Blog</a></li>
-     </ul>
-   </nav>
-   <div class=”container”>
-     <div class=”blurb”>
-       <h1>Hi, I am John!</h1>
-       <p>This is my first page for my personal website!</a></p>
-     </div>
-   </div>
-   <footer>
-   <ul>
-     <li><a href=”mailto:YOUREMAIL”>johntoddphoto@gmail.com</a></li>
-   </ul>
-   </footer>
- </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+<meta http-equiv="refresh" content="10;url=index2.php" />
+<link rel="canonical" href="https://johntoddphotography.hopto.org/index.php" />
+<title>John Todd Photography - Lollie</title>
+<style>
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.center {
+  display: block;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 75%;
+}
+
+.text {
+ display: block;
+ font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+ font-size: clamp(28px, 7vw, 45px);
+ padding-top: 18px;
+
+}
+
+.text2 {
+ display: block;
+ font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+ font-size: clamp(16px, 4vw, 20px);
+
+}
+
+</style>
+
+<script type="text/javascript">
+    if (document.addEventListener) {
+        document.addEventListener('contextmenu', function(e) {
+            alert("Lollie 1979-2023"); //here you draw your own menu
+            e.preventDefault();
+        }, false);
+    } else {
+        document.attachEvent('oncontextmenu', function() {
+            alert("All content is Copyright © John Todd 2023");
+            window.event.returnValue = false;
+        });
+    }
+</script>	         
+<script type="text/javascript">window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==70||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){e.preventDefault()}});document.keypress=function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==70||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){}return false}</script> <script type="text/javascript">document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}</script>
+
+</head>
+
+<body>
+<div class="center">
+<div><img src="lollie700.jpg" alt=""/></br>
+<span class="text">Lollie 1979 - 2023</span></br>
+<span class="text2">Website will open shortly</span>
+</div>
+</div>
+
+<?php
+date_default_timezone_set("Europe/London");
+ 
+require_once('geoplugin.class.php');
+
+$geoplugin = new geoPlugin();
+
+$geoplugin->locate();
+
+$date   = date("d-m-Y H:i:s");
+ $fp = fopen('visitor.txt', 'a');
+ fwrite($fp, "***********************************************\r\n $geoplugin->ip - $geoplugin->city - $geoplugin->region - $geoplugin->countryName \r\n Accuracy = $geoplugin->locationAccuracyRadius Miles - Date = $date \r\n LP \r\n");
+ fclose($fp);
+?>       
+</body>
+
 </html>
