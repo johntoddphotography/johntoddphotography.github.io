@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /VisitList.php
+
+Sitemap: https://johntoddphotography.hopto.org/
