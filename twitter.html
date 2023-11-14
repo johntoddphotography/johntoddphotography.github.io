@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Twitter</title>
+<style>
+body{background:#f5f8fa; margin:0;}
+#wrap
+{
+	margin: auto;   
+	position: absolute;
+    width: 100vw;
+}
+map {
+    display: inline;
+}
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    width: 100vw;
+	height: auto;
+}
+
+</style>
+
+<script type="text/javascript">
+    if (document.addEventListener) {
+        document.addEventListener('contextmenu', function(e) {
+            alert("All content is Copyright © The Birds"); //here you draw your own menu
+            e.preventDefault();
+        }, false);
+    } else {
+        document.attachEvent('oncontextmenu', function() {
+            alert("All content is Copyright © The Birds");
+            window.event.returnValue = false;
+        });
+    }
+</script>	              
+<script type="text/javascript">window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==70||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){e.preventDefault()}});document.keypress=function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==70||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){}return false}</script> <script type="text/javascript">document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}</script>    
+<style>
+@media (max-width: 735px) {
+  #sidebar {
+	display:none;
+}}
+</style>
+ 
+</head>
+
+<body>
+
+<audio autoplay>
+  <source src="twitter/blackbird1.ogg" type="audio/ogg">
+  <source src="twitter/blackbird1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<map name="twit">
+    <area alt="Robin" title="Robin" href="#robin" coords="692,12,720,33" shape="rect" onmouseover="document.getElementById('robin').play()" onmouseout="document.getElementById('robin').pause()">
+    <area alt="JTP" title="JTP" href="https://johntoddphotography.hopto.org/" coords="385,648,162,630" shape="rect">
+    <area alt="Blackbird" title="Blackbird" href="#blackbird" coords="589,909,856,1056" shape="rect" onmouseover="document.getElementById('blackbird').play()" onmouseout="document.getElementById('blackbird').pause()">
+    <area alt="Blackbird" title="Blackbird" href="#blackbird" coords="709,762,837,779" shape="rect" onmouseover="document.getElementById('blackbird').play()" onmouseout="document.getElementById('blackbird').pause()">
+    <area alt="Swallow" title="Swallow" href="#swallow" coords="554,598,766,662" shape="rect" onmouseover="document.getElementById('swallow').play()" onmouseout="document.getElementById('swallow').pause()">
+    <area alt="Wren" title="Wren" href="#wren" coords="914,1195,1034,1295" shape="rect" onmouseover="document.getElementById('wren').play()" onmouseout="document.getElementById('wren').pause()">
+    <area alt="Wren" title="Wren" href="#wren" coords="441,1265,494,1277" shape="rect" onmouseover="document.getElementById('wren').play()" onmouseout="document.getElementById('wren').pause()">
+    <area alt="Chaffinch" title="Chaffinch" href="#chaffinch" coords="858,1398,1090,1542" shape="rect" onmouseover="document.getElementById('chaffinch').play()" onmouseout="document.getElementById('chaffinch').pause()">
+    <area alt="Chaffinch" title="Chaffinch" href="#chaffinch" coords="539,1443,612,1456" shape="rect" onmouseover="document.getElementById('chaffinch').play()" onmouseout="document.getElementById('chaffinch').pause()">
+    <area alt="Song Thrush" title="Song Thrush" href="#songthrush" coords="862,1136,974,1150" shape="rect" onmouseover="document.getElementById('songthrush').play()" onmouseout="document.getElementById('songthrush').pause()">    
+<area target="" alt="Falcon" title="Falcon" href="#falcon" coords="756,1812,844,1839" shape="rect" onmouseover="document.getElementById('falcon').play()" onmouseout="document.getElementById('falcon').pause()">
+    <area target="" alt="Falcon" title="Falcon" href="#falcon" coords="611,1917,823,2157" shape="rect" onmouseover="document.getElementById('falcon').play()" onmouseout="document.getElementById('falcon').pause()">
+    <area target="" alt="Barn Owl" title="Barn Owl" href="#barnowl" coords="538,2496,600,2510" shape="rect" onmouseover="document.getElementById('barnowl').play()" onmouseout="document.getElementById('barnowl').pause()">
+    <area target="" alt="Bird like" title="Bird like" href="#birdlike" coords="617,2702,721,2724" shape="rect" onmouseover="document.getElementById('birdlike').play()" onmouseout="document.getElementById('birdlike').pause()">
+    <area target="" alt="Golden Eagle" title="Golden Eagle" href="#eagle" coords="817,2867,903,2892" shape="rect" onmouseover="document.getElementById('eagle').play()" onmouseout="document.getElementById('eagle').pause()">
+    <area target="" alt="Golden Eagle" title="Golden Eagle" href="#eagle" coords="571,2956,881,3226" shape="rect" onmouseover="document.getElementById('eagle').play()" onmouseout="document.getElementById('eagle').pause()">
+    <area target="_new" alt="Votes for birds" title="Votes for birds" href="https://www.bto.org/" coords="883,3244,973,3252" shape="rect">
+    <area target="" alt="hashtag" title="hashtag" href="#hashtag" coords="504,3549,568,3564" shape="rect" onmouseover="document.getElementById('hashtag').play()" onmouseout="document.getElementById('hashtag').pause()">
+    <area alt="Mistle Thrush" title="Mistle Thrush" href="#mistlethrush" coords="851,3664,880,3693" shape="rect" onmouseover="document.getElementById('mistlethrush').play()" onmouseout="document.getElementById('mistlethrush').pause()">
+</map>
+<div id="wrap">
+<img src="twitter/twitter.jpg" width="1440" height="4000" usemap="#twit"/>
+</div>
+
+<script src="assets/js/jquery-3.1.0.js"></script>
+<script src="twitter/jquery.rwdImageMaps.js"></script>
+<script>
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+});
+</script>
+
+</body>
+<audio id="robin"><source src="twitter/robin.mp3"></source><source src="twitter/robin.ogg"></source></audio>
+<audio id="blackbird"><source src="twitter/blackbird.mp3"></source><source src="twitter/blackbird.ogg"></source></audio>
+<audio id="swallow"><source src="twitter/swallow.mp3"></source><source src="twitter/swallow.ogg"></source></audio>
+<audio id="wren"><source src="twitter/wren.mp3"></source><source src=twitter/"wren.ogg"></source></audio>
+<audio id="chaffinch"><source src="twitter/chaffinch.mp3"></source><source src="twitter/chaffinch.ogg"></source></audio>
+<audio id="songthrush"><source src="twitter/songthrush.mp3"></source><source src="twitter/songthrush.ogg"></source></audio>
+<audio id="mistlethrush"><source src="twitter/mistlethrush.mp3"></source><source src="twitter/mistlethrush.ogg"></source></audio>
+<audio id="falcon"><source src="twitter/falcon.mp3"></source><source src="twitter/falcon.ogg"></source></audio>
+<audio id="barnowl"><source src="twitter/barnowl.mp3"></source><source src="twitter/barnowl.ogg"></source></audio>
+<audio id="birdlike"><source src="twitter/chirps.mp3"></source><source src="twitter/chirps.ogg"></source></audio>
+<audio id="eagle"><source src="twitter/eagle.mp3"></source><source src="twitter/eagle.ogg"></source></audio>
+<audio id="votes"><source src="twitter/songthrush.mp3"></source><source src="twitter/songthrush.ogg"></source></audio>
+<audio id="hashtag"><source src="twitter/songthrush.mp3"></source><source src="twitter/songthrush.ogg"></source></audio>
+</html>

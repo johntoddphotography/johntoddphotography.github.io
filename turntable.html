@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+<title>Automated Model Railway Turntable</title>
+
+<style>
+.button {
+		position: relative;
+		display: inline-block;
+		font-size:16px;
+		background: #7ab80e;
+		color: #fff;
+		text-align: center;
+		border-radius: 0.5em;
+		text-decoration: none;
+		margin-top: 0px;
+		padding: 0.65em 3em 0.65em 3em;
+		border: 0;
+		cursor: pointer;
+		outline: 0;
+		font-weight: 300;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-box-shadow: 0px 3px 7px 1px rgba(0,0,0,0.36);
+-moz-box-shadow: 0px 3px 7px 1px rgba(0,0,0,0.36);
+box-shadow: 0px 3px 7px 1px rgba(0,0,0,0.36);
+	}	
+.button:hover {
+			color: #fff;
+			background: #60900b;
+		}
+</style>
+<style>
+.pnew {
+      font-family:Arial, Helvetica,sans-serif;
+      font-size: 15px;
+      font-weight:400;
+      color:#444;
+      text-align:left;
+      margin-top: 10px;
+	  margin-left: 10px;
+      line-height: 1.4;
+}
+</style>    
+</head>
+
+<body bgcolor="#fff";font-family: Arial, Helvetica,sans-serif;>
+
+<p style="font-family:Arial, Helvetica,sans-serif; font-size: 3vw; font-weight:600; color:#79ADB1; text-align:center">Automated Model Railway Turntable<br /><br />
+
+
+<video width="80%" height="auto" controls>
+  <source src="video/TTmovie.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div>
+<p class="pnew">I wanted an automatic turntable and tried several systems before settling with <a href="https://www.dccinterface.com/" title="DCC Interfaces" target="new">DCC Interfaces</a> stepper motor system. This works well, I decided that the Peco LK-55 TT needed some sound to give it weight and bulk, even if incorrect in terms of the prototype! So as I use <a href="https://dcc-ex.com/" title="DCC++ EX" target="new">DCC++ EX</a> and <a href="https://www.jmri.org/" title="JMRI" target="new">JMRI</a> on a Raspberry Pi4B along with Dr. Geoff Bunza’s <a href="https://forum.mrhmag.com/post/sma28-jmri-sensor-channels-%E2%80%93-direct-arduino-to-jmri-communications-simple-support-for-lots-of-12210793" title="Arduino sensor project" target="new">Arduino sensor project</a> I worked out a system using hall effect sensors. Two on each exit, one on the exit track and one unseen below the baseboard at bridge height. These trigger DCC accessory commands (turnouts in JMRI) which cause the sounds and signal to operate and enable the timing for the loco throttle control within JMRI Jython scripts.</p>
+
+<p class="pnew">One problem to overcome was due to my exit roads not being equally distanced so I could not use a single sound file due to timing. So I purchased a SparkFun <a href="https://www.sparkfun.com/products/13660" title="Polymorphic Wav Trigger" target="new">Polymorphic Wav Trigger</a> that allows simultaneous playing of Wav files. I have two sound files one is a start-up and continuous turning sound the second is the squeaky braking stopping sound. By using the sensors and script instructions I have the first sound start when the script starts and then the first sound stops and the second starts when the bridge reaches its desired exit. The two sounds play overlapped by about 300ms to give an impression of continuous sound. It works really well and achieves the desired effect.</p>
+
+<p class="pnew">The main <a href="https://www.soundsofchanges.eu/sound/railway-turntable/" title="TT sound" target="new">TT sound</a> is a recording of an actual TT, the enhanced start-up and squeaky braking sounds are made from several free sound effects and mixed using Audacity on Windows 10.</p>
+
+<p class="pnew">I have 14 exits (7 front and 7 back) and 14 virtual buttons on my JMRI Panel Pro Control Panel. Each one triggers a script to go to a desired exit along with the sound and led signal. Each of these smaller scripts can then be incorporated within larger jython scripts allowing overall automation of my layout. The accessory decoder I use is the <a href="https://www.arcomora.com/" title="Arcomora" target="new">Arcomora</a> kit.</>
+
+  <p class="pnew"><img src="video/PP1.jpg" width="25%" height="auto" title="PanelPro Window"/> <img src="video/TrackPLan.jpg" width="48%" height="auto" title="Track Plan, red and green dots are sensors"/></p>
+<div style="font-family:Arial, Helvetica,sans-serif; font-size: 17px; font-weight:600; margin-left: 10px; color: #79ADB1;">URL LINKS:</div>
+<p class="pnew">
+<a href="https://dcc-ex.com/" title="DCC++ EX" target="new">DCC++ EX</a><br />
+<a href="https://www.jmri.org/" title="JMRI" target="new">JMRI</a><br />
+<a href="https://www.dccinterface.com/" title="DCC INTERFACES" target="new">DCC INTERFACES</a><br />
+<a href="https://www.soundsofchanges.eu/sound/railway-turntable/" title="TT SOUND FILE" target="new">TT SOUND FILE</a><br />
+<a href="https://forum.mrhmag.com/post/sma28-jmri-sensor-channels-%E2%80%93-direct-arduino-to-jmri-communications-simple-support-for-lots-of-12210793" title="ARDUINO SENSOR PROJECT" target="new">ARDUINO SENSOR PROJECT</a><br />
+<a href="https://www.sparkfun.com/products/13660" title="SPARKFUN" target="new">SPARKFUN WAV TRIGGER</a><br />
+<a href="https://www.arcomora.com/" title="ARCOMORA" target="new">ARCOMORA</a><br />
+</p>
+<p class="pnew">
+Hope this inspires someone!  Cheers, John Todd.
+</p><br />
+</div>
+<div style="font-family:Arial, Helvetica,sans-serif; font-size: 15px; font-weight:600; color:#F00; text-align:center"><a href="index.html" class="button">JT Photography Home Page</a></div><br /><br />
+<div style="font-family:Arial, Helvetica,sans-serif; text-align: center; font-size:15px; color:#999">&copy; John Todd Photography 2023</div>
+
+</body>
+
+</html>
+
