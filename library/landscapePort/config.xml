@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+
+	useFlickr="false"
+	galleryTitle="The Landscape Folio"
+	textColor="rgba(255, 255, 255, 0.6)"
+	thumbFrameColor="rgba(255, 255, 255, 0.9)"
+	showOpenButton="false"
+	showExpandButton="false"
+	showThumbsButton="true"
+	useThumbDots="false"
+	showThumbPagingText="true"
+	useFullscreenExpand="false"
+	languageList="Show Thumbnails|Hide Thumbnails|Expand Gallery|Close Gallery|Open Image in New Window|Next Image|Previous Image|Play Audio|Pause Audio|Show Information|Hide Information|Start AutoPlay|Stop AutoPlay|AutoPlay ON|AutoPlay OFF|Portfolio Page|Buy this Image|Share on Facebook|Share on Twitter|Share on Google+|Share on Pinterest|Share on Tumblr|of"
+
+galleryTitlePosition="top"
+showAutoPlayButton="true"
+buttonBarPosition="overlay_image"
+imageTransitionType="cross_fade"
+captionBackColor="rgba(0,0,0,.2)"
+textShadowColor="rgba(0,0,0,0)"
+imageNavPosition="image"
+navButtonIconColor="rgba(255,255,255,.4)"
+navButtonIconHoverColor="rgba(255,255,255,1)"
+thumbWidth="70"
+thumbheight="70"
+thumbSelectedFrameWidth="5"
+thumbHoverFrameWidth="3"
+captionPosition="below_image"
+maxCaptionHeight="37"
+buttonBarIconColor="rgba(255,255,255,.4)"
+buttonBarIconHoverColor="rgba(255,255,255,1)"
+backButtonUseIcon="false"
+backButtonText=""
+backButtonPosition="top"
+backButtonHAlign="right"
+backButtonUrl="">
+
+	<image imageURL="images/landweb-1.jpg" thumbURL="thumbs/landweb-1.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-4.jpg" thumbURL="thumbs/landweb-4.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-3.jpg" thumbURL="thumbs/landweb-3.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-18.jpg" thumbURL="thumbs/landweb-18.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-19.jpg" thumbURL="thumbs/landweb-19.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-13.jpg" thumbURL="thumbs/landweb-13.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-73.jpg" thumbURL="thumbs/landweb-73.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-72.jpg" thumbURL="thumbs/landweb-72.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-74.jpg" thumbURL="thumbs/landweb-74.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landWeb80.jpg" thumbURL="thumbs/landWeb80.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/CRW_0772.jpg" thumbURL="thumbs/CRW_0772.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-10.jpg" thumbURL="thumbs/landweb-10.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-11.jpg" thumbURL="thumbs/landweb-11.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-7.jpg" thumbURL="thumbs/landweb-7.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-12.jpg" thumbURL="thumbs/landweb-12.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-51.jpg" thumbURL="thumbs/landweb-51.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-8.jpg" thumbURL="thumbs/landweb-8.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-14.jpg" thumbURL="thumbs/landweb-14.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-16.jpg" thumbURL="thumbs/landweb-16.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-17.jpg" thumbURL="thumbs/landweb-17.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-20.jpg" thumbURL="thumbs/landweb-20.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-35.jpg" thumbURL="thumbs/landweb-35.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-23.jpg" thumbURL="thumbs/landweb-23.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-24.jpg" thumbURL="thumbs/landweb-24.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-25.jpg" thumbURL="thumbs/landweb-25.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-9.jpg" thumbURL="thumbs/landweb-9.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-26.jpg" thumbURL="thumbs/landweb-26.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-27.jpg" thumbURL="thumbs/landweb-27.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-34.jpg" thumbURL="thumbs/landweb-34.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-44.jpg" thumbURL="thumbs/landweb-44.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-29.jpg" thumbURL="thumbs/landweb-29.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-30.jpg" thumbURL="thumbs/landweb-30.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-46.jpg" thumbURL="thumbs/landweb-46.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-2.jpg" thumbURL="thumbs/landweb-2.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-32.jpg" thumbURL="thumbs/landweb-32.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-36.jpg" thumbURL="thumbs/landweb-36.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-37.jpg" thumbURL="thumbs/landweb-37.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-38.jpg" thumbURL="thumbs/landweb-38.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-39.jpg" thumbURL="thumbs/landweb-39.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-40.jpg" thumbURL="thumbs/landweb-40.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-41.jpg" thumbURL="thumbs/landweb-41.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-62.jpg" thumbURL="thumbs/landweb-62.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-42.jpg" thumbURL="thumbs/landweb-42.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-48.jpg" thumbURL="thumbs/landweb-48.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-49.jpg" thumbURL="thumbs/landweb-49.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-50.jpg" thumbURL="thumbs/landweb-50.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-54.jpg" thumbURL="thumbs/landweb-54.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-55.jpg" thumbURL="thumbs/landweb-55.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-63.jpg" thumbURL="thumbs/landweb-63.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-65.jpg" thumbURL="thumbs/landweb-65.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-66.jpg" thumbURL="thumbs/landweb-66.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-67.jpg" thumbURL="thumbs/landweb-67.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-68.jpg" thumbURL="thumbs/landweb-68.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-5.jpg" thumbURL="thumbs/landweb-5.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-69.jpg" thumbURL="thumbs/landweb-69.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-70.jpg" thumbURL="thumbs/landweb-70.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-76.jpg" thumbURL="thumbs/landweb-76.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-77.jpg" thumbURL="thumbs/landweb-77.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-78.jpg" thumbURL="thumbs/landweb-78.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/landweb-75.jpg" thumbURL="thumbs/landweb-75.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+
+</juiceboxgallery>
