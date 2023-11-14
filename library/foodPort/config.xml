@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+
+	useFlickr="false"
+	galleryTitle="The Food Folio"
+	textColor="rgba(255, 255, 255, 0.6)"
+	thumbFrameColor="rgba(255, 255, 255, 0.9)"
+	showOpenButton="false"
+	showExpandButton="false"
+	showThumbsButton="true"
+	showThumbPagingText="true"
+	useThumbDots="false"
+	useFullscreenExpand="false"
+	languageList="Show Thumbnails|Hide Thumbnails|Expand Gallery|Close Gallery|Open Image in New Window|Next Image|Previous Image|Play Audio|Pause Audio|Show Information|Hide Information|Start AutoPlay|Stop AutoPlay|AutoPlay ON|AutoPlay OFF|Portfolio Page|Buy this Image|Share on Facebook|Share on Twitter|Share on Google+|Share on Pinterest|Share on Tumblr|of"
+
+galleryTitlePosition="top"
+showAutoPlayButton="true"
+buttonBarPosition="overlay_image"
+imageTransitionType="cross_fade"
+captionBackColor="rgba(0,0,0,.2)"
+textShadowColor="rgba(0,0,0,0)"
+imageNavPosition="image"
+navButtonIconColor="rgba(255,255,255,.4)"
+navButtonIconHoverColor="rgba(255,255,255,1)"
+thumbWidth="70"
+thumbheight="70"
+thumbSelectedFrameWidth="5"
+thumbHoverFrameWidth="3"
+captionPosition="below_image"
+maxCaptionHeight="37"
+buttonBarIconColor="rgba(255,255,255,.4)"
+buttonBarIconHoverColor="rgba(255,255,255,1)"
+backButtonUseIcon="false"
+backButtonText=""
+backButtonPosition="top"
+backButtonHAlign="right"
+backButtonUrl="">
+
+	<image imageURL="images/foodweb-1.jpg" thumbURL="thumbs/foodweb-1.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-4.jpg" thumbURL="thumbs/foodweb-4.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-12.jpg" thumbURL="thumbs/foodweb-12.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-10.jpg" thumbURL="thumbs/foodweb-10.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-6.jpg" thumbURL="thumbs/foodweb-6.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-13.jpg" thumbURL="thumbs/foodweb-13.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-2.jpg" thumbURL="thumbs/foodweb-2.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-15.jpg" thumbURL="thumbs/foodweb-15.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-17.jpg" thumbURL="thumbs/foodweb-17.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-9.jpg" thumbURL="thumbs/foodweb-9.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-18.jpg" thumbURL="thumbs/foodweb-18.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-7.jpg" thumbURL="thumbs/foodweb-7.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-19.jpg" thumbURL="thumbs/foodweb-19.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-5.jpg" thumbURL="thumbs/foodweb-5.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-16.jpg" thumbURL="thumbs/foodweb-16.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-20.jpg" thumbURL="thumbs/foodweb-20.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-8.jpg" thumbURL="thumbs/foodweb-8.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-21.jpg" thumbURL="thumbs/foodweb-21.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-22.jpg" thumbURL="thumbs/foodweb-22.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-23.jpg" thumbURL="thumbs/foodweb-23.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-3.jpg" thumbURL="thumbs/foodweb-3.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-29.jpg" thumbURL="thumbs/foodweb-29.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-14.jpg" thumbURL="thumbs/foodweb-14.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-24.jpg" thumbURL="thumbs/foodweb-24.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-25.jpg" thumbURL="thumbs/foodweb-25.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-26.jpg" thumbURL="thumbs/foodweb-26.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-27.jpg" thumbURL="thumbs/foodweb-27.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-28.jpg" thumbURL="thumbs/foodweb-28.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-30.jpg" thumbURL="thumbs/foodweb-30.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-31.jpg" thumbURL="thumbs/foodweb-31.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-32.jpg" thumbURL="thumbs/foodweb-32.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-33.jpg" thumbURL="thumbs/foodweb-33.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-34.jpg" thumbURL="thumbs/foodweb-34.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-35.jpg" thumbURL="thumbs/foodweb-35.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-36.jpg" thumbURL="thumbs/foodweb-36.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-42.jpg" thumbURL="thumbs/foodweb-42.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-37.jpg" thumbURL="thumbs/foodweb-37.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-38.jpg" thumbURL="thumbs/foodweb-38.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-39.jpg" thumbURL="thumbs/foodweb-39.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-41.jpg" thumbURL="thumbs/foodweb-41.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb-40.jpg" thumbURL="thumbs/foodweb-40.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+	<image imageURL="images/foodweb17b.jpg" thumbURL="thumbs/foodweb17b.jpg" linkURL="" linkTarget="_blank">
+		<title><![CDATA[]]></title>
+		<caption><![CDATA[&copy; John Todd Photography 2023]]></caption>
+	</image>
+
+</juiceboxgallery>
