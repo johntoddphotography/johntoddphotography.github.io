@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Slide Show</title>
+    <style>
+        .slide-show-container {
+            position: relative;
+            width: 800px;
+            height: 600px;
+            margin: 50px auto;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .slide-show {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transition: transform 1s ease-in-out;
+        }
+
+        .slide-images {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .slide-images.active {
+            opacity: 1;
+        }
+
+        .controls {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn-prev {
+            background-color: rgba(0,0,0,0.8);
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-prev:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        .btn-next {
+            background-color: rgba(0,0,0,0.8);
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-next:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        .image-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .single-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-show-container">
+        <div class="slide-images" style="background-image: url(https://johntoddphotography.github.io/images/littlelang/LittleLangdale-01.jpg)"></div>
+        <div class="slide-images" style="background-image: url(https://johntoddphotography.github.io/images/littlelang/LittleLangdale-02.jpg)"></div>
+        <div class="slide-images" style="background-image: url(https://johntoddphotography.github.io/images/littlelang/LittleLangdale-03.jpg)"></div>
+        
+        <!-- Repeat this div for each image -->
+
+        <div class="controls">
+            <button class="btn-prev">Previous</button>
+            <button class="btn-next">Next</button>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const totalSlides = 3;
+
+        function showNextSlide() {
+            currentSlide++;
+            if (currentSlide >= totalSlides) {
+                currentSlide = 0;
+            }
+
+            const slideImagesContainer = document.querySelector('.slide-images');
+            slideImagesContainer.style.backgroundImage = `url('${image_urls[currentSlide]}')`;
+        }
+
+        function showPreviousSlide() {
+            currentSlide--;
+            if (currentSlide < 0) {
+                currentSlide = totalSlides - 1;
+            }
+
+            const slideImagesContainer = document.querySelector('.slide-images');
+            slideImagesContainer.style.backgroundImage = `url('${image_urls[currentSlide]}')`;
+        }
+
+        function autoPlay() {
+            setInterval(showNextSlide, 5000); // Auto-advance every 5 seconds
+        }
+
+        image_urls = [
+            'https://johntoddphotography.github.io/images/littlelang/LittleLangdale-01.jpg', // Slide 1
+            'https://johntoddphotography.github.io/images/littlelang/LittleLangdale-02.jpg', // Slide 2
+            ... Array(1).fill(null), // Placeholder for the remaining slides
+            'https://johntoddphotography.github.io/images/littlelang/LittleLangdale-03.jpg', // Slide 3
+        ];
+
+        document.querySelector('.btn-prev').addEventListener('click', showPreviousSlide);
+        document.querySelector('.btn-next').addEventListener('click', showNextSlide);
+
+        autoPlay();
+    </script>
+</body>
+</html>
