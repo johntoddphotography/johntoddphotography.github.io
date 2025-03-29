@@ -43,9 +43,7 @@
 <style>#cboxTitle, #cboxCurrent { display:none !important; }</style>		       
  	
 <style>.virt_iframe{position:relative;padding-bottom:57.6%;height:0;overflow:hidden;max-width:100%;margin: 0 0 1.7em 0; background-color:#666;}.virt_iframe iframe{position:absolute;top:0;left:0;width:100%;height:100%; background-color:#666;}#cboxTitle, #cboxCurrent { display:none !important; }</style>
-<style>
-.count {padding-left:30px; vertical-align: text-bottom;}
-</style>
+<link rel="stylesheet" href="countstyle.css" />
 </head>
 	<body class="homepage">
         
@@ -378,9 +376,13 @@
                                            <li style="cursor:pointer;" onclick="location.href='pinteresque/pinteresque.html'; "onMouseOver="this.style.opacity=.5"onMouseOut="this.style.opacity=1"><img src="pinteresque/pinicon18.png" width="18" height="18" style="margin-bottom:4px;"></li>							
 										</ul>
                                         <ul class="menu">
-										  <li>&copy; 2025 John Todd Photography. All rights reserved.</li><li>Built by John Todd on a design by: <a href="https://html5up.net">HTML5 UP</a></li><li><a href="sitemap.html">Sitemap</a><span class="count"><img src="images/count1.png" alt="counter"></span</li>
+										  <li>&copy; 2025 John Todd Photography. All rights reserved.</li><li>Built by John Todd on a design by: <a href="https://html5up.net">HTML5 UP</a></li><li><a href="sitemap.html">Sitemap</a>&emsp;<div id="hit-counter"></div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="script.js"></script>
+									</div></li>
                                         </ul>
-									</div>
+
 
 							</div>
 
